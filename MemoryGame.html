@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Memory Game</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+
+    <script type="text/javascript" src="DOMAutomation/Jackson.js"></script>
+
+    <script src="https://www.google.com/jsapi"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+</head>
+<body>
+
+    <div id ="header" class = "row">
+        <div id = "headContainer" class = "container">
+            <div id = "logoDiv" class = "col-md-6 col-sm-7">
+                <p id = "logo">MEMORY GAME</p>
+            </div>
+
+            <div id = "scoreboardHolder" class = "col-md-3 col-sm-2">
+                <div id = "scoreboard">
+                    <p id ="scoreTitle">SCOREBOARD</p>
+                    <p id ="score" >0</p>
+                </div>
+
+                <a onclick = "startGame()" id = "newGame" class = "btn btn-sm btn-success">New Game</a>
+
+            </div>
+
+            <form id = "difficulty" class = "col-md-3 col-sm-3">
+                <div class="radio">
+                    <label><input class = "radioDiff" type="radio" name="easy" >Easy</label>
+                </div>
+                <div class="radio">
+                    <label><input class = "radioDiff" type="radio" name="medium" >Medium</label>
+                </div>
+                <div class="radio">
+                    <label><input class = "radioDiff" type="radio" name="hard">Hard</label>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div id="memContainer" class = "container">
+    </div>
+
+
+</body>
+
+<script type="text/javascript" src="js/MemoryGameJS.js"></script>
+</html>

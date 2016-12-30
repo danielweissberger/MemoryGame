@@ -1,0 +1,92 @@
+body{
+    background-color:lightblue;
+    margin:0;
+    padding:0;
+}
+
+#header{
+    background-color:darkslategrey;
+    height:150px;
+    width:100%;
+    margin:0;
+    padding:0;
+}
+
+#difficulty{
+    display:inline-block;
+    width:60px;
+    margin-Left:1%;
+    margin-Top:1%;
+    font-Size:18px;
+    color:white;
+    font-family:Space Mono;
+}
+
+
+
+#logoDiv{
+    display:inline-block;
+    margin-top:3%;
+}
+
+#logo{
+    display:inline-block;
+    font-family: Space Mono;
+    color:white;
+    font-Size:50px;
+    width:100%;
+    margin:0;
+    padding:0;
+}
+
+#row0{
+    height:180px;
+}
+#scoreboardHolder{
+    width:160px;
+    height:auto;
+    display:inline-block;
+    margin-Top:.5%;
+}
+
+#score{
+    font-size:50px;
+    color:white;
+    font-family:Space Mono;
+    display:inline-block;
+    text-align:center;
+    margin-Left:25%;
+
+}
+
+#scoreTitle{
+    font-size:12px;
+    text-align:center;
+    font-weight:bold;
+    font-family:Space Mono;
+    padding:0px;
+    margin:0px;
+    margin-Top:5%;
+}
+
+#scoreboard{
+    background-color:seagreen;
+    height:90px;
+    width:150px;
+    border-radius:20px;
+    display:inline-block;
+}
+
+#newGame{
+    font-family:Space Mono;
+    font-size:15px;
+    color:white;
+    border-radius:15px;
+    opacity:.9;
+    margin-top:5px;
+    width:150px;
+}
+
+.btn {
+    background: #089fdb;
+}
